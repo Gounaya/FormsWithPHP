@@ -6,7 +6,17 @@
     </head>
     <body>
         <form action="cible.php" method="POST"> 
-            <label for=""></label>
+            <p>
+                <label>
+                    Prénom : <input type="text" name ="prenom">
+                </label> <br>
+                <label>
+                    Etes-vous végétarien ? <input type="checkbox" name ="vegetarien">
+                </label>
+            </p>
+            <p>
+                <input type="submit">
+            </p>
         </form>
     </body>
 </html>
