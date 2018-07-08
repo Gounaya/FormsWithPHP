@@ -13,8 +13,10 @@
                 echo 'Vous etes végétarien';
             }else{
                 echo 'Vous n\'etes pas végétarien';
-            }
+            }       
         ?>
-        
+        <p>
+            Vous habitez à <?php echo $_POST['ville']; ?>
+        </p>
     </body>
 </html>
